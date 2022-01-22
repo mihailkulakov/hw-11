@@ -16,7 +16,7 @@ main {
 }
 
 h2 {
-    font-size: 35px;
+    font-size: 30px;
 }
 
 p {
@@ -75,20 +75,33 @@ a {
 
 /* Страничка жанров и тегов */
 
+.genre-first, .genre-second, .genre-third, .genre-fourth {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-bottom: 16px;
+}
+
+
 .genre-first {
+    background-color: #E1F5EA;
 
 }
 
 .genre-second {
-
+    background-color: #CBEDFF;
+    width: 70%;
 }
 
 .genre-third {
-
+    background-color: #EEE5BD;
+    width: 40%;
 }
 
 .genre-fourth {
-
+    background-color: #EBDCF9;
+    width: 30%;
 }
 
 .tag {
