@@ -26,10 +26,10 @@ a {
 /* Колонки */
 
 .row {
-
+    display: flex;
 }
 .col {
-
+    flex: auto;
 }
 
 
@@ -94,7 +94,11 @@ a {
 /* Страничка популярного */
 
 .cover {
+    width: 150px;
 
+    margin-right: 24px;
+    margin-top: 12px;
+    margin-bottom: 12px;
 }
 
 /* Страничка подписки  */
