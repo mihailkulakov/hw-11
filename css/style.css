@@ -125,17 +125,33 @@ a {
 }
 
 /* Страничка подписки  */
+.box-green, .box-purple {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-right: 16px;
+    padding-left: 16px;
+
+    margin-top: 24px;
+    margin-bottom: 24px;
+    border-radius: 4px;
+}
 
 .box-green {
+    background-color: #E1F5EA;
+
 
 }
 
 .box-purple {
+    margin-top: 48px;
+    background-color: #EBDCF9;
+
 
 }
 
 .text-large {
-
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .button-link {
