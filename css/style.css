@@ -7,7 +7,7 @@
 /* Потом селекторы по тегам */
 
 html {
-
+    font-family: Arial;
 }
 
 main {
@@ -40,7 +40,16 @@ a {
 }
 
 .button {
+    background-color: #554af0;
+    color: white;
 
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 16px;
+    padding-left: 16px;
+
+    border-radius: 4px;
+    border: none;
 }
 
 /* Потом специальные правила по страничкам */
@@ -49,7 +58,14 @@ a {
 
 .input-login {
 
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
 
+    border-color: grey;
+    border-radius: 4px;
 }
 
 
